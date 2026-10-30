@@ -110,7 +110,7 @@ print("Creating model...")
 model = tapir_model.TAPIR(pyramid_level=1, use_casual_conv=True)
 print("Loading checkpoint...")
 model.load_state_dict(
-    torch.load("tapnet/checkpoints/causal_bootstapir_checkpoint.pt")
+    torch.load("checkpoints/causal_bootstapir_checkpoint.pt")
 )
 model = model.to(device)
 model = model.eval()

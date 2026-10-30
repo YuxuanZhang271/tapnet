@@ -7,7 +7,7 @@ dm-tree
 typing_extensions
 matplotlib
 mediapy
-opencv-python
+# opencv-python
 einshape
 ipympl
 tqdm
